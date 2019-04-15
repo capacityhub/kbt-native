@@ -123,7 +123,7 @@ menu_width = 1.06rem
         display: block;
         position: relative;
         overflow: hidden;
-        background-color: #00939c;
+        background-color: #ef4f4f;
         color: #fff;
         .top_bar {
             position: relative;
@@ -140,7 +140,7 @@ menu_width = 1.06rem
                 flex: 2.5;
                 height: 100%;
                 padding: 0.3rem 0.4rem 0.25rem;
-                color: #00939c;
+                color: #909090;
                 overflow: hidden;
                 .search_wrap{
                     position: relative;

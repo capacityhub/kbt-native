@@ -12,14 +12,14 @@
                 <nav-bar></nav-bar>
             </template>
 
-            <!-- 广告页 -->
-            <div class="coverAd" v-if="advertisement">
-                <img class="coverOne"  v-if="coverImg" :src="coverImg">
-                <img src="~@/assets/icon/1.png">
-                <button @click.stop="advertisement = false">
-                    <span>跳过</span>
-                </button>
-            </div>
+            <!--&lt;!&ndash; 广告页 &ndash;&gt;-->
+            <!--<div class="coverAd" v-if="advertisement">-->
+                <!--<img class="coverOne"  v-if="coverImg" :src="coverImg">-->
+                <!--<img src="~@/assets/icon/1.png">-->
+                <!--<button @click.stop="advertisement = false">-->
+                    <!--<span>跳过</span>-->
+                <!--</button>-->
+            <!--</div>-->
         </div>
     </transition>
 </template>
